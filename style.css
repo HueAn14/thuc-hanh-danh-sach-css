@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 30px;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #1f4e79;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+
+.subject-list {
+    list-style-type: square;
+}
+
+
+.learning-steps {
+    list-style-type: upper-roman;
+}
+
+.tool-list {
+    list-style-image: url("images/list-icon.png");
+}
+
+.position-outside {
+    list-style-type: disc;
+    list-style-position: outside;
+    background-color: #eaf4ff;
+    padding: 20px;
+}
+
+.position-inside {
+    list-style-type: disc;
+    list-style-position: inside;
+    background-color: #fff3cd;
+    padding: 20px;
+}
+.short-list {
+    list-style: square inside url("images/list-icon.png");
+}
+
+.language-list {
+    background-color: #dff0ff;
+    color: #164a6b;
+    padding: 25px 40px;
+}
+
+.language-list li {
+    margin: 10px 0;
+}
+
+.web-roadmap {
+    list-style-type: decimal;
+    list-style-position: inside;
+
+    background-color: #e8f5e9;
+    color: #1b5e20;
+
+    padding: 25px 40px;
+    margin: 20px 0;
+
+    border-radius: 10px;
+}
+
+.web-roadmap li {
+    margin: 12px 0;
+    padding: 8px;
+    background-color: #ffffff;
+}
